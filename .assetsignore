@@ -1,4 +1,6 @@
 .git
+.gitignore
+.assetsignore
 .wrangler
 node_modules
 ottica-strozzi-preview.html

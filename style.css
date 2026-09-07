@@ -494,34 +494,26 @@ main > section {
 .visita-media .map-frame { margin-bottom: 0; }
 
 /* ---------- INSTAGRAM ---------- */
-.instagram-header { max-width: 60ch; margin-bottom: var(--space-lg); }
-.instagram-header .link-arrow { margin-top: var(--space-sm); }
-.instagram-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-sm);
-}
-.instagram-embed-wrap {
-  position: relative;
-  overflow: hidden;
-  min-height: 560px;
-  background: var(--color-champagne-light);
+.instagram-panel {
+  max-width: 56ch;
+  margin: 0 auto;
+  text-align: center;
+  padding: var(--space-xl) var(--space-md);
   border: 1px solid var(--color-gray-300);
 }
-.instagram-embed-wrap iframe,
-.instagram-embed-wrap .instagram-media {
-  position: absolute !important;
-  inset: 0 !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: 100% !important;
-  min-width: 0 !important;
-  margin: 0 !important;
+.instagram-panel .section-number { text-align: center; }
+.instagram-panel .eyebrow { justify-content: center; }
+.instagram-panel .section-body { margin: 0 auto var(--space-md); }
+.instagram-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px; height: 52px;
+  border-radius: 50%;
+  border: 1px solid var(--color-gray-300);
+  color: var(--color-black);
+  margin: 0 auto var(--space-md);
 }
-.instagram-noscript { text-align: center; margin-top: var(--space-md); }
-.instagram-noscript a { text-decoration: underline; }
 
 /* ---------- DICONO DI NOI ---------- */
 .social-proof-header { max-width: 60ch; margin-bottom: var(--space-lg); }
@@ -770,8 +762,6 @@ main > section {
 
   .servizi-grid { grid-template-columns: 1fr; gap: var(--space-lg); }
 
-  .instagram-grid { grid-template-columns: repeat(2, 1fr); }
-
   .visita-grid { grid-template-columns: 1fr; }
   .visita-media { order: -1; }
 
@@ -793,7 +783,7 @@ main > section {
 
   .collezioni-grid { grid-template-columns: 1fr; }
 
-  .instagram-grid { grid-template-columns: 1fr; }
+  .instagram-panel { padding: var(--space-lg) var(--space-sm); }
 
   .visita-actions { flex-direction: column; }
   .visita-actions .btn { width: 100%; text-align: center; }
