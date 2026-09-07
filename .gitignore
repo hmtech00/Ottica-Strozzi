@@ -1,0 +1,5 @@
+.wrangler/
+node_modules/
+.DS_Store
+ottica-strozzi-preview.html
+ottica-strozzi-preview.pdf

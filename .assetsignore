@@ -1,0 +1,6 @@
+.git
+.wrangler
+node_modules
+ottica-strozzi-preview.html
+ottica-strozzi-preview.pdf
+.DS_Store
